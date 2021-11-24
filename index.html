@@ -377,6 +377,9 @@
 			localStorage.setItem(this.storagekey, JSON.stringify(this.coinList));
 			this.getLocalData();
 			console.log(postData)
+			document.getElementById('coin').value = '';
+			document.getElementById('coin_name').value = '';
+			document.getElementById('year_listed').value = '';
 			alert('Data Extraction Successfull');
 		}
 
